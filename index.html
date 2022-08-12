@@ -272,12 +272,12 @@
                 </div>
             </div>
 
-            <form action="">
-                <input type="text" placeholder="name" class="box">
-                <input type="email" placeholder="email" class="box">
+            <form action="https://formsubmit.co/sayedhaider300@gmail.com" method="post">
+                <input type="text" name="name" placeholder="name" class="box">
+                <input type="email" name="email" placeholder="email" class="box">
                 <input type="text" placeholder="subject" class="box">
                 <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-                <button type="button" class="btn" onclick="sendEmail()"> send <i class="fas fa-paper-plane"></i> </button>
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
             </form>
 
         </div>
@@ -301,7 +301,7 @@
     <script src="https://sayedhaider300.github.io/portfolio.github.in/script.js"></script>
 
     <script type="text/javascript">
-        function sendEmail() {           
+        function sendEmail() {
             const message = "message sent successfully";
             Email.send({
                 Host: "smtp.elasticemail.com",
