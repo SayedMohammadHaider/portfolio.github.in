@@ -442,11 +442,7 @@ header {
 
     html {
         font-size: 50%;
-    }
-
-    .portfolio .box-container .box p {
-        font-size: 11px;
-    }
+    }   
 
     .portfolio .box-container .box {
         width: 100%;       
@@ -477,9 +473,5 @@ header {
 
     .contact .row form {
         margin: 3rem 0;
-    }
-
-    .portfolio .box-container .box p {
-        font-size: 11px;
-    }
+    }   
 }
