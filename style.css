@@ -283,14 +283,12 @@ header {
 
 .portfolio .box-container {
     display: flex;
-    /* align-items: center;
-    justify-content: center;*/
     flex-wrap: wrap;
     padding: 2rem 0;
 }
 
     .portfolio .box-container .box {
-        width: 30%;
+        width: 29%;
         border-radius: 1rem;
         margin: 2rem;
         overflow: hidden;
