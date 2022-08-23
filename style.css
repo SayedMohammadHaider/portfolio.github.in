@@ -308,16 +308,6 @@ header {
             padding: 1rem 0rem;
         }
 
-/* .portfolio .box-container .box img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-
-        .portfolio .box-container .box:hover img {
-            transform: scale(1.2);
-        }*/
-
 .contact .row {
     display: flex;
     align-items: center;
