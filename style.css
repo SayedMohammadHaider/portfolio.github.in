@@ -283,14 +283,14 @@ header {
 
 .portfolio .box-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center;*/
     flex-wrap: wrap;
     padding: 2rem 0;
 }
 
     .portfolio .box-container .box {
-        width: 100%;
+        width: 30%;
         border-radius: 1rem;
         margin: 2rem;
         overflow: hidden;
@@ -305,7 +305,7 @@ header {
         .portfolio .box-container .box p {
             font-size: 15px;
             color: #eee;
-            padding: 1rem 2rem;
+            padding: 1rem 0rem;
         }
 
 /* .portfolio .box-container .box img {
@@ -387,27 +387,33 @@ header {
 }
 
 .skillContaier {
-    background-color: rgb(192, 192, 192);
+    background-color: #eee;
     border-radius: 15px;
     display: inline-block;
+    width: 100%;
 }
 
 .skill {
     background-color: var(--yellow);
     color: white;
-    padding: 0.5%;
-    text-align: right;
+    padding: 1%;
     font-size: 15px;
     border-radius: 15px;
 }
 
 .skillText {
-    display: inline-block;
-    min-width:15%;
+    display: flex;
+    justify-content: space-between;
 }
 
+.skillPercent {
+    color: #eee;
+    font-size:15px;
+}
 
-
+.skillBox{
+    margin-top:20px;
+}
 
 
 
@@ -453,8 +459,9 @@ header {
     .portfolio .box-container .box p {
         font-size: 11px;
     }
-    .skillText {
-        min-width: 18%;
+
+    .portfolio .box-container .box {
+        width: 100%;       
     }
 }
 
@@ -485,9 +492,6 @@ header {
     }
 
     .portfolio .box-container .box p {
-        font-size: 11px;        
-    }
-    .skillText {
-        min-width: 18%;
+        font-size: 11px;
     }
 }

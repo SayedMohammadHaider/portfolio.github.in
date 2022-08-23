@@ -39,43 +39,27 @@ $(document).ready(function () {
 var skills = [
     {
         "Name": "C#",
-        "Progress": "80%"
+        "Progress": "95%"
     },
     {
         "Name": "LINQ",
-        "Progress": "70%"
+        "Progress": "95%"
     },
     {
         "Name": "Dot Net Core",
-        "Progress": "70%"
+        "Progress": "90%"
     },
     {
         "Name": "Core WCF",
-        "Progress": "70%"
+        "Progress": "90%"
     },
     {
         "Name": "Entity Framework",
-        "Progress": "65%"
+        "Progress": "85%"
     },
     {
         "Name": "Azure",
-        "Progress": "50%"
-    },
-    {
-        "Name": "Sharepoint",
-        "Progress": "50%"
-    },
-    {
-        "Name": "SQL",
-        "Progress": "50%"
-    },
-    {
-        "Name": "React JS",
-        "Progress": "50%"
-    },
-    {
-        "Name": "HTML/CSS",
-        "Progress": "40%"
+        "Progress": "80%"
     }
 ]
 
@@ -83,7 +67,7 @@ buildSkillDesign();
 function buildSkillDesign() {
     var design = '';
     for (var i = 0; i < skills.length; i++) {
-        design += '<div class="skillBox"> <div class="skillText"> <p>' + skills[i].Name + '</p> </div> <div class="skillContaier" style="width:' + skills[i].Progress + '"> <div class="skill">' + skills[i].Progress +'</div> </div> </div>';
+        design += '<div class="skillBox"> <div class="skillText"> <div class="skillPercent">' + skills[i].Name + '</div> <div class="skillPercent">' + skills[i].Progress + '</div> </div> <div class="skillContaier"> <div class="skill" style="width:' + skills[i].Progress + '"></div> </div> </div>';
     }
     var skillBox = document.getElementById("boxSkill");
     skillBox.innerHTML = design;
